@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #BAB1B1;
+}
+
+a, li{
+    font-family: 'roboto',sans-serif;
+
+}
+.logo-header img{
+    width: 100px;
+}
+.header{
+    background-color: #AB9696;
+    display:flex;
+    border: 2px solid red;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-menu li{
+    margin-right: 1.5rem;
+    color: #F75E5E;
+}
+.nav-menu a{
+text-decoration: none;
+}
+.nav-menu a:hover{
+    color: #FC1919;
+}
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+h1{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+p{
+    display: flex;
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+}
+.foto-jose img{
+    width: 200px;
+    float: right;
+}
+.productos-imagenes img{
+    width: 300px
+}
+.productos-imagenes{
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 1%;
+}
+.obras-imagenes img{
+    width: 300px
+}
+.obras-imagenes{
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+.nuestros-productos{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.nuestros-productos img{
+    width: 250px;
+}
+
+.obras-realizadas{
+    margin-top: 1%;
+}
+.obras-realizadas img{
+    width: 300px;
+    margin-bottom: 10%;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #AB9696;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .2rem 1rem;
+    width: 100%;
+}
+.imagen-footer img{
+    width: 100px;
+}
+.redes-footer img{
+    width: 30px;
+}
+form {
+  max-width: 700px;          
+  padding: 2rem;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #2c2c2c;
+}
+form label {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #555;
+}
+form textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
