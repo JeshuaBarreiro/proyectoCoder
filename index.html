@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
+    <title>Inicio</title>
 </head>
 <body>
                             <!--Encabezado-->
     <header class="header">
         <div class="logo-header">
-            <h1>ALAMBRAR S.R.L</h1>
             <img src="./img/Logo.png" alt="">
         </div>
         <Nav class="nav-menu">
@@ -23,12 +23,13 @@
             </ul>
         </Nav>
     </header>
-    <Main>
-        <section>
+    <Main class="body">
+        <section class="seccionprincipal">
+            <section>
             <h1>ALAMBRAR SRL</h1>
-        </section>
+            </section>
                     <!--Quienes somos-->
-        <section class="quienessomos-inicio">
+            <section class="quienessomos-inicio">
             <h2>Quienes Somos</h2>
             <P>
                 Conoce nuestra historia y nuestra vision.
@@ -36,32 +37,80 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, nemo fuga. Neque quisquam corrupti ad consectetur animi cupiditate illo est iusto, excepturi voluptatibus totam asperiores officia, repudiandae voluptates distinctio voluptas?
             </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nihil dolorum iste dolore tempore nesciunt! Quidem voluptatum ex a iure adipisci animi quam nostrum! Optio voluptatum explicabo temporibus vitae debitis?
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, temporibus aliquam architecto nihil explicabo eius officia at magnam tempore, quas, aperiam iusto enim delectus sit corporis aliquid cupiditate aut recusandae.
+            </p>
+            </section>
         </section>
+        
                     <!--Seccion de Productos-->
         <section class="nuestros-productos">
-            <h2>Nuestros Productos</h2>
-            <p>
-                Conoce nuestros productos
-            </p>
-            <img src="./img/Producto Alambrado Tejido.jpg" alt="">
-            <img src="./img/Producto Antirrobo.jpg" alt="">
-            <img src="./img/Producto Concertina.jpg" alt="">
+                <h2>Nuestros Productos</h2>
+            <div class="tarjetas">
+                <div>
+                    <img src="./img/Producto Alambrado Tejido.jpg" alt="">
+                    <H3>Alambrado Tejido</H3>
+                    <a href="./Pages/Contacto.html">Consultar</a>
+                </div>
+                <div>
+                    <img src="./img/Producto Antirrobo.jpg" alt="">
+                    <H3>Antirrobo</H3>
+                    <a href="./Pages/Contacto.html">Consultar</a>
+                </div>
+                <div>
+                    <img src="./img/Producto Concertina.jpg" alt="">
+                    <H3>Concertina</H3>
+                    <a href="./Pages/Contacto.html">Consultar</a>
+                </div>
+                <div>
+                    <img src="./img/Producto Alambrado Country.jpg" alt="">
+                    <H3>Alambrado Country</H3>
+                    <a href="./Pages/Contacto.html">Consultar</a>
+                </div>
+                <div>
+                    <img src="./img/Producto Poste de Hormigon.jpg" alt="">
+                    <H3>Poste de Hormigon</H3>
+                    <a href="./Pages/Contacto.html">Consultar</a>
+                </div>
+                <div>
+                    <img src="./img/Producto Tranquera.jpg" alt="">
+                    <H3>Tranquera</H3>
+                    <a href="./Pages/Contacto.html">Consultar</a>
+                </div>
+            </div>
         </section>
                     <!--Seccion de Obras realizadas-->
         <section class="obras-realizadas">
             <h2>Obras Realizadas</h2>
-            <p>
-                Aqui podras ver algunas de nuestras obras que realizamos a lo largo de nuestros años de experiencia
-            </p>
-            <img src="./img/Obra1.jpg" alt="">
-            <img src="./img/Obra2.jpg" alt="">
-            <img src="./img/Obra3.jpg" alt="">
+        </section>
+        <section class="galeria-grid">
+            <div class="item-grid grid-1">
+                <img src="./img/Obra1.jpg" alt="">
+            </div>
+            <div class="item-grid">
+                <img src="./img/Obra2.jpg" alt="">
+            </div>
+            <div class="item-grid">
+                <img src="./img/Obra3.jpg" alt="">
+            </div>
+            <div class="item-grid">
+                <img src="./img/Obra4.jpg" alt="">
+            </div>
+            <div class="item-grid grid-5">
+                <img src="./img/Obra5.jpg" alt="">
+            </div>
+            <div class="item-grid grid-6" >
+                <img src="./img/Obra6.jpg" alt="">
+            </div>
         </section>
     </Main>
                     <!--Pie de pagina-->
     <footer class="footer">
         <div class="imagen-footer">
-            <img src="./img/Logo.png" alt="">
+            <img src="./img/Banner2.png" alt="">
         </div>
         <div class="texto-footer">
             <Nav class="nav-footer">
@@ -88,5 +137,6 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.7927256026237!2d-65.41216782375216!3d-24.802550108363583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc30a3a88a751%3A0x906026a58f173a9a!2sALAMBRAR!5e0!3m2!1ses-419!2sar!4v1755322912799!5m2!1ses-419!2sar" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
