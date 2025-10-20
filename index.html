@@ -3,51 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/base/main.css">
     <title>Inicio</title>
 </head>
 <body>
                             <!--Encabezado-->
-    <header class="header">
-        <div class="logo-header">
+    <header class="bienvenidos">
+        <div>
             <img src="./img/Logo.png" alt="">
         </div>
-        <Nav class="nav-menu">
-            <ul><!--Lista desordenada -->
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./Pages/QuienesSomos.html">Quienes Somos</a></li>
-                <li><a href="./Pages/Productos.html">Productos</a></li>
-                <li><a href="./Pages/Obras.html">Obras Realizadas</a></li>
-                <li id="23"><a href="./Pages/Contacto.html">Contacto</a></li>
-            </ul>
-        </Nav>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-principal">
+            <div class="container-fluid">
+                    <!-- Botón hamburguesa -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Links -->
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./Pages/QuienesSomos.html">Quienes Somos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./Pages/Productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./Pages/Obras.html">Obras Realizadas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./Pages/Contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <Main class="body">
+    <Main class="home">
         <section class="seccionprincipal">
             <section>
             <h1>ALAMBRAR SRL</h1>
             </section>
-                    <!--Quienes somos-->
+    <!--Quienes somos-->
             <section class="quienessomos-inicio">
-            <h2>Quienes Somos</h2>
-            <P>
-                Conoce nuestra historia y nuestra vision.
-            </P>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, nemo fuga. Neque quisquam corrupti ad consectetur animi cupiditate illo est iusto, excepturi voluptatibus totam asperiores officia, repudiandae voluptates distinctio voluptas?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nihil dolorum iste dolore tempore nesciunt! Quidem voluptatum ex a iure adipisci animi quam nostrum! Optio voluptatum explicabo temporibus vitae debitis?
-            </p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, temporibus aliquam architecto nihil explicabo eius officia at magnam tempore, quas, aperiam iusto enim delectus sit corporis aliquid cupiditate aut recusandae.
-            </p>
+            <div class="about-container">
+                <h2 class="text-center mb-4">Quiénes Somos</h2>
+                    <p class="text-justify mb-3">
+                        <strong>Alambrar SRL</strong> es una empresa salteña con más de dos décadas de experiencia en la fabricación de alambres tejidos y soluciones de cerramiento perimetral.
+                    </p>
+                    
+                    <p class="text-justify mb-3">
+                        La empresa fue fundada en el año 2000 por Jose Zangara, con el valor de ofrecer productos de calidad que aporten seguridad y confianza en cada proyecto. Desde sus inicios, mantiene un compromiso con productores rurales, empresas y obras urbanas, consolidándose rápidamente como un referente en el rubro.
+                    </p>
+                    
+                    <p class="text-justify mb-3">
+                        Bajo el liderazgo de Soledad Zinger, la empresa ha crecido extraordinariamente, incorporando nuevas tecnologías y desarrollando no solo alambres tejidos y postes, sino también obras de ingeniería civil y cerramientos perimetrales de gran escala.
+                    </p>
+                    
+                    <p class="text-justify mb-0">
+                        Hoy, con sede en Salta Capital, Alambrar SRL continúa trabajando con la misma vocación de servicio, ofreciendo soluciones confiables que combinan resistencia, durabilidad y cumplimiento.
+                    </p>
+                </div>
             </section>
         </section>
         
                     <!--Seccion de Productos-->
-        <section class="nuestros-productos">
+        <section class="nuestros-productos-inicio">
                 <h2>Nuestros Productos</h2>
             <div class="tarjetas">
                 <div>
@@ -83,7 +97,7 @@
             </div>
         </section>
                     <!--Seccion de Obras realizadas-->
-        <section class="obras-realizadas">
+        <section class="titulo-obras">
             <h2>Obras Realizadas</h2>
         </section>
         <section class="galeria-grid">
@@ -105,11 +119,11 @@
             <div class="item-grid grid-6" >
                 <img src="./img/Obra6.jpg" alt="">
             </div>
-        </section>
+        </section>  
     </Main>
                     <!--Pie de pagina-->
-    <footer class="footer">
-        <div class="imagen-footer">
+    <footer>
+        <div>
             <img src="./img/Banner2.png" alt="">
         </div>
         <div class="texto-footer">

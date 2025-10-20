@@ -13,33 +13,24 @@ body{
     overflow-x: hidden;
 }
 h1{
-    font-size: 60px;
+    font-size: clamp(1.8rem, 5vw, 3.5rem);
+    margin-bottom: 1.5rem;
+    text-align:center;
 }
 
 a, li{
     font-family: 'roboto',sans-serif;
 
 }
-.logo-header img{
+.logo{
     width: 100px;
 }
-.header{
+.bienvenidos{
     background-color: #AB2829;
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding: .5rem 2rem;
-}
-.nav-menu ul{
-    display: flex;
-    align-items: center;
-}
-.nav-menu li{
-    margin-right: 1.5rem;
-}
-.nav-menu a{
-text-decoration: none;
-color: #ffffff;
 }
 .nav-menu a:hover{
     color: #AF886A;
@@ -71,10 +62,7 @@ color: #ffffff;
     margin-right: 1%;
     margin-bottom: 300px
 }
-h1{
-    margin-bottom: 2rem;
-    text-align: center;
-}
+
 p{
     display: flex;
     margin-bottom: 2rem;
@@ -190,13 +178,14 @@ p{
     margin-bottom: 300px
 }
 .footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
     background-color: #AB2829;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 0.2rem 1rem;
+    padding: 1rem;
     width: 100%;
 }
 .footer a{
@@ -258,7 +247,7 @@ form textarea {
 }
 @media screen and (max-width:790px){
     .galeria-grid{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     grid-auto-rows: 180px;
     }
     .item-grid{
@@ -276,7 +265,7 @@ form textarea {
 }
 @media screen and (max-width:400px){
     footer{
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
     }
 }
