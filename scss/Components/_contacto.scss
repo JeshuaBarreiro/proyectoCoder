@@ -1,0 +1,48 @@
+@use "variables";
+
+#form1 {
+    border: 1px solid #ddd;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    background: linear-gradient(rgba(138, 138, 138, 0.9), rgba(138, 138, 138, 0.9));
+    padding: 3rem 2rem;
+
+    #form2 {
+        background-color: #f8f9fa;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        button {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #AB2829;
+            border-radius: 10px;
+            padding: 5px;
+        }
+    }
+
+    #form3 {
+        width: 100%;
+        h2 {
+            text-align: center;
+            background-color: variables.$primary-color;
+            font-size: 20px;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+    }
+
+}

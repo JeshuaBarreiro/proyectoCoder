@@ -1,0 +1,70 @@
+@use "variables";
+
+.productos-imagenes {
+    margin-top: 1%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    background: linear-gradient(rgba(138, 138, 138, 0.9), rgba(138, 138, 138, 0.9));
+    padding: 3rem 2rem;
+
+    h2 {
+        text-align: center;
+        background-color: variables.$primary-color;
+        font-size: 20px;
+        color: #ffffff;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+    }
+
+    img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .tarjetas-productos {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        div {
+            border: 1px solid #EBEDF2;
+            width: 270px;
+            height: 360px;
+            margin: 15px;
+            text-align: center;
+
+            h3 {
+                margin: 4px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                background-color: #AB2829;
+                border-radius: 10px;
+                padding: 5px;
+            }
+
+            img {
+                margin-top: 3%;
+            }
+        }
+    }
+
+    .container-tarjetas-productos {
+        background-color: #f8f9fa;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    }
+}

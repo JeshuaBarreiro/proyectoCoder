@@ -2,7 +2,7 @@
 
 body {
     .bienvenidos {
-        background: linear-gradient(90deg, darken(variables.$primary-color, 5%), variables.$primary-color);
+        background: variables.$primary-color;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -18,7 +18,6 @@ body {
             background-color: variables.$secondary-color;
             padding: 5px;
         }
-
         // Ítems de navegación
         .nav-item {
             font-family: 'Roboto', sans-serif;
