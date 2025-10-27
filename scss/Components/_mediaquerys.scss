@@ -3,6 +3,7 @@
     .tarjetas-productos {
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
     }
 }
 
@@ -26,12 +27,14 @@
         .tarjetas {
             flex-wrap: wrap;
             align-items: center;
+            justify-content: center;
         }
     }
 
     .tarjetas {
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
     }
 }
 
@@ -92,6 +95,7 @@
     .tarjetas {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .galeria-grid {

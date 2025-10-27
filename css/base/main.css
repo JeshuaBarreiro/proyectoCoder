@@ -131,7 +131,6 @@ body .bienvenidos .nav-item .nav-link:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  justify-content: center;
 }
 .home .nuestros-productos-inicio .tarjetas div {
   border: 1px solid #EBEDF2;
@@ -549,6 +548,7 @@ body .testimonios .testimonios-img .carousel-inner img {
   .tarjetas-productos {
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 1840px) {
@@ -561,10 +561,12 @@ body .testimonios .testimonios-img .carousel-inner img {
   .nuestros-productos-inicio .tarjetas {
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
   }
   .tarjetas {
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
   }
 }
 .titulo-obras .container-obras h2 {
@@ -607,6 +609,7 @@ body .testimonios .testimonios-img .carousel-inner img {
   .tarjetas {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .galeria-grid {
     grid-template-columns: repeat(1, 1fr) !important;
