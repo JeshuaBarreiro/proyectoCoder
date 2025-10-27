@@ -124,10 +124,6 @@ body .bienvenidos .nav-item .nav-link:hover {
   height: 250px;
 }
 .home .nuestros-productos-inicio .tarjetas {
-  margin-top: 1%;
-  margin-left: 2%;
-  margin-left: 2%;
-  margin-bottom: 1%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -138,6 +134,7 @@ body .bienvenidos .nav-item .nav-link:hover {
   height: 360px;
   margin: 15px;
   text-align: center;
+  align-items: center;
 }
 .home .nuestros-productos-inicio .tarjetas div h3 {
   margin: 4px;

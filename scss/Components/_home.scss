@@ -88,21 +88,16 @@
         }
 
         .tarjetas {
-            margin-top: 1%;
-            margin-left: 2%;
-            margin-left: 2%;
-            margin-bottom: 1%;
             display: flex;
             justify-content: space-around;
             align-items: center;
-
             div {
                 border: 1px solid #EBEDF2;
                 width: 270px;
                 height: 360px;
                 margin: 15px;
                 text-align: center;
-
+                align-items: center;
                 h3 {
                     margin: 4px;
                 }
