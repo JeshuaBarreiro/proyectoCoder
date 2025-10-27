@@ -131,6 +131,7 @@ body .bienvenidos .nav-item .nav-link:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  justify-content: center;
 }
 .home .nuestros-productos-inicio .tarjetas div {
   border: 1px solid #EBEDF2;
