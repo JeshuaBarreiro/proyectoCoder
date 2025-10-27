@@ -1,9 +1,9 @@
 /* --- Tablets grandes y notebooks pequeñas --- */
-@media screen and (max-width: 2800px){
-    .tarjetas-productos{
-            flex-wrap: wrap;
-            align-items: center;
-        }
+@media screen and (max-width: 2800px) {
+    .tarjetas-productos {
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }
 
 
@@ -28,34 +28,57 @@
             align-items: center;
         }
     }
-        .tarjetas {
-            flex-wrap: wrap;
-            align-items: center;
+
+    .tarjetas {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+.titulo-obras {
+    .container-obras {
+        h2 {
+            font-size: 20px !important;
         }
     }
 
-    .titulo-obras {
-        .container-obras {
-            h2 {
-                font-size: 20px !important;
-            }
-        }
+    .galeria-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+        gap: 10px;
 
-        .galeria-grid {
-            grid-template-columns: repeat(2, 1fr);
-            grid-auto-rows: 200px;
-            gap: 10px;
-
-            .item-grid {
-                grid-column: span 1;
-                grid-row: span 1;
-            }
+        .item-grid {
+            grid-column: span 1;
+            grid-row: span 1;
         }
     }
+
+    .galeria-grid-index {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+        gap: 10px;
+
+        .item-grid-index {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+    }
+}
 
 
 /* --- Tablets y celulares grandes --- */
 @media screen and (max-width: 790px) {
+    .bienvenidos {
+        div {
+            img {
+                width: 100px !important;
+            }
+        }
+
+        .navbar-toggler {
+            align-items: left !important;
+        }
+    }
 
     .quienessomos-inicio {
         font-size: 15px;
@@ -72,16 +95,20 @@
     }
 
     .galeria-grid {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-auto-rows: 180px;
+    }
+
+    .galeria-grid-index {
+        grid-template-columns: repeat(1, 1fr) !important;
         grid-auto-rows: 180px;
     }
 }
 
 /* --- Celulares medianos --- */
 @media screen and (max-width: 700px) {
-
-    header {
-        text-align: left;
+    .bienvenidos {
+        text-align: center;
     }
 
     .nuestros-productos h2 {
@@ -89,13 +116,23 @@
     }
 
     .galeria-grid {
-        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: 160px;
     }
 
     .item-grid {
         grid-column: span 1;
         grid-row: span 1;
+    }
+
+    .galeria-grid-index {
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-auto-rows: 160px;
+    }
+
+    .item-grid-index {
+        grid-column: span 1 !important;
+        grid-row: span 1 !important;
     }
 }
 
