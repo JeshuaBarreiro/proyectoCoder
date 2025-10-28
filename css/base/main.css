@@ -691,6 +691,9 @@ footer {
 footer div img {
   width: 100px;
 }
+footer .redes-footer P {
+  color: #ffffff;
+}
 footer .redes-footer a img {
   width: 45px;
 }
